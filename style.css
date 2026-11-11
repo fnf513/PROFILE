@@ -1,0 +1,98 @@
+*     {box-sizing; border-box;}
+
+body {
+        margin: 0;
+       font-family: "segoe UI", Tahoma, sans-serif;
+      background:darkblue;
+      color:#e4ecf7
+}
+
+.page{
+    max-with:1100px;
+    margin: 40px auto;
+    padding: 24px;
+}
+
+.hero{
+      display: flex;
+      align-items: center;
+       justify-content: space-between;
+       gap: 30px;
+       background:rgba(255, 255, 255, 0,75);
+       backdrop-filter: blur(10p);S
+           border: 1px solid rgba(68, 145, 158, 0.7);S
+        box-shadow: 0 18px 40px rgba(130, 27, 170, 0.12);
+       border-radius: 28px;
+        padding: 32px;
+        
+
+       margin-bottom :28px;
+}
+
+.profile-content {
+   flex: 1;
+}
+ 
+.badge{
+      display: inline-block;
+              background: linear-gradiant(135deg, #5f46a3, #11c04b);
+        color: white;
+             padding: 8px 14px;
+            border-radius: 999px;
+         font-size: 12px;
+       fontweight: 700;
+        letter-spacing: 0.08em;
+        text-trnsfrom:uppercase;
+}
+
+.judul{
+   margin: 0;
+   font-family: 'plus jakarta sans','segoe UI' sans-serif;
+
+
+}
+
+    .card h2 {
+       margin-top: 0;
+     margin-bottom: 18px
+         color: #1e293b;
+     font-size: 1.5rem;
+}
+
+   .hobby-list {
+     list-style: none;
+   padding: 0;
+     margin: 0;
+    display: grid;
+  gap: 12px
+}
+
+.hobby-list li {
+  background: linear-gradient(135deg,#ff6fff,#f5f3ff);
+     border-left: 4px solid #7c3aed;
+      padding: 12px 14px;
+    border-radius: 12px;
+  font-weight: 600;
+color: #312e81;
+}
+  .social-link{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 12px;
+}
+
+    .social-link a {
+     text-decoration: none;
+        color: #1d4ed8;
+         background: #e0edff;
+      paddfing: 10px 14px;
+    border-radius: 12px;
+   font-weight: 600;
+        transition: transfrom 0.2s ease, box-shadow 0.2s ease;
+}
+
+  .social-links a:hover {
+     transform: translateY(-2px);
+   box-shadow: 0 10px 20px rgba(37,99,235,0.15)
+   
+  }
